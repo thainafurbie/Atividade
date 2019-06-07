@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Atividade</string>
+    <string name="nome_compromisso">nome_compromisso</string>
+    <string name="nome_data">nome_data</string>
+    <string name="nome_inicio">nome_inicio</string>
+    <string name="nome_fim">nome_fim</string>
+    <string name="nome_local">nome_local</string>
+</resources>

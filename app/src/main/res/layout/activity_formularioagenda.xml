@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FormularioAgendaActivity"
+        android:orientation="vertical">
+
+    <EditText
+            android:hint="@string/nome_compromisso"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/agenda"/>
+
+    <EditText
+            android:hint="@string/nome_data"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/data"/>
+
+     <EditText
+            android:hint="@string/nome_inicio"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/inicio"/>
+
+      <EditText
+            android:hint="@string/nome_fim"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/fim"/>
+
+        <EditText
+            android:hint="@string/nome_local"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/local"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:id="@+id/botaogravar"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agenda"
+            android:id="@+id/botaoagenda"/>
+
+    </LinearLayout>
+</ScrollView>
